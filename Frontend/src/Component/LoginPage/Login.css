@@ -1,0 +1,93 @@
+.loginpage{
+    display: flex;
+}
+
+.img img{
+    height: 95vh;
+    width: 50vw;
+    border-radius: 12px;
+    margin: 20px;
+    
+}
+.form{
+    width: 50vw;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+}
+.welcometxt{
+   font-size: 36px;
+   margin-bottom: 20px;
+}
+.text{
+    margin-bottom: 30px;
+    
+}
+
+.form input{
+    border-radius: 4px;
+    height: 30px;
+    width: 350px;
+    padding-left: 10px;
+    border: 0.5px solid rgba(82, 84, 79, 0.24);
+    margin-bottom: 20px;
+}
+.usernametext{
+    margin-bottom: 5px;
+}
+.passwordtext{
+    margin-bottom: 5px;
+}
+.forgot{
+    text-align:  right;
+    cursor: pointer;
+    color: blue;
+    margin-bottom: 20px;
+}
+.signin{
+    border-radius: 5px;
+    color: white;
+    background-color: #162D3A;
+    height: 40px;
+    font-size: 16px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    
+}
+.googlebtn{
+    display: 'flex';
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 5px;
+    background-color: #F3F9FA;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    height: 40px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    text-align: center;
+    vertical-align: middle;
+    outline: none;
+    border: none;
+}
+.googlebtn img{
+    height: auto;
+}
+.googlebtn span{
+    margin-bottom:  20px;
+
+}
+.signup{
+    text-align: center;
+}
+.signup span{
+    color: blue;
+    cursor: pointer;
+}

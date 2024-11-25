@@ -1,0 +1,68 @@
+.navbar{
+    background: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+
+.logo img{
+    width: 120px;
+    margin-top: 10px;
+    height: max-content;
+    margin-left : 20px ;
+    padding-left: 20px;
+
+}
+
+.searchbar input{
+    width: 450px;
+    height: 35px;
+    border: none;
+    outline: none;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    font-family:  sans-serif 20 ;
+    font-size: medium;
+    padding-left: 20px;
+}
+.searchbar button{
+    width: 70px;
+    height: 35px;
+    border-top-right-radius: 5px ;
+    border-bottom-right-radius: 5px;
+    border: none;
+    outline: none;
+    background-color: white;
+    transition: 0.3s ease ;
+    font-size: medium;
+}
+.searchbar button:hover{
+    background-color: rgb(202, 202, 202);
+}
+.navbutton{
+    display: flex;
+    margin-right: 40px;
+    
+}
+.navbutton button{
+    margin-right: 20px;
+    height: 30px;
+    width: 100px;
+    border-radius: 6px;
+    border-radius: 8px;
+    cursor: pointer; 
+    display: inline-block; 
+    font-family: CerebriSans-Regular,-apple-system,system-ui,Roboto,sans-serif; 
+    text-align: center; 
+    text-decoration: none; 
+    transition: all 250ms; 
+    border: 0; 
+    font-size: 16px; 
+    user-select: none; 
+}
+.navbutton button:hover{
+    transform: scale(1.1);
+}
