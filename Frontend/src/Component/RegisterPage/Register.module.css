@@ -1,0 +1,104 @@
+.page{
+    display: flex;
+}
+.image img{
+    height: 95vh;
+    width: 48vw;
+    margin: 20px;
+
+}
+.form{
+    height: 95vh;
+    width: 48vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.formcomponent{
+    display: flex;
+    flex-direction: column;
+}
+
+.signupwelcometext{
+    margin-bottom: 10px;
+    font-size: 36px;
+    font: "SF Pro Rounded";
+}
+.signuptext{
+    margin-bottom: 40px;
+
+}
+input{
+    padding-left: 10px;
+    border-radius: 5px;
+    border: 0.5px solid black;
+    height: 30px;
+    width: 350px;
+    font-size: 16px;
+    border: 0.5px solid rgba(82, 84, 79, 0.24);
+}
+#cc {
+    width: 30px;
+    height: 30px;
+}
+.nametext{
+    margin-bottom: 10px;
+}
+.nameinput{
+    margin-bottom: 20px;
+}
+.emailtext{
+    margin-bottom: 10px;
+}
+.emailinput{
+    margin-bottom: 20px;
+}
+.mobiletext{
+    margin-bottom: 10px;
+}
+.mobileinput{
+    margin-bottom: 20px;
+}
+.passwordtext{
+    margin-bottom: 10px;
+}
+.passwordinput{
+    margin-bottom: 20px;
+}
+.termscond{
+    margin-bottom: 20px;
+}
+.createaccount{
+    margin-bottom: 10px;
+}
+.alreadyhaveaccount{
+    margin-top: 20px;
+    text-align: right;
+}
+.createaccount button{
+    height: 40px;
+    width: 350px;
+    font-size: 16px;
+    color: white;
+    background-color: #162D3A;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    letter-spacing: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+.termscond label{
+    display: flex;
+    align-items: center;
+}
+.termscond span{
+    margin-left: 20px;
+    color: blue;
+}
+.alreadyhaveaccount span{
+    color: blue;
+}
+
+
+
