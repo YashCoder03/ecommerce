@@ -1,5 +1,7 @@
 const express = require('express');
 const cors = require('cors'); // Import the cors package
+const db = require('./db/databaseConnection')
+db()
 
 const app = express()
 

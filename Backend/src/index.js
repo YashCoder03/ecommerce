@@ -1,10 +1,12 @@
 app = require('./server')
+userRoute = require('./Routes/user.routes')
+
+app.use('/api/v1/user',userRoute);
 
 app.get('/',(req,res) => {
-    console.log("hiiiiii");
-    res.send("hello world");
+    res.send('its a get request')
+
 })
 app.post('/', (req,res)=>{
-    console.log( req.body);
-    res.send('success');
+    res.send('its a post request')
 })
