@@ -37,7 +37,6 @@
     width: 350px;
     padding-left: 10px;
     border: 0.5px solid rgba(82, 84, 79, 0.24);
-    margin-bottom: 20px;
 }
 .usernametext{
     margin-bottom: 5px;
@@ -90,4 +89,21 @@
 .signup span{
     color: blue;
     cursor: pointer;
+}
+.passwordinput{
+    display: flex;
+    flex-direction: column;
+}
+
+.usernameinput{
+    display: flex;
+    flex-direction: column;
+}
+.usernameinput span{
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+.passwordinput span{
+    margin-top: 5px;
+    margin-bottom: 20px;
 }

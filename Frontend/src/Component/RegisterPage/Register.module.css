@@ -45,29 +45,51 @@ input{
 .nametext{
     margin-bottom: 10px;
 }
+.nameinput span{
+    margin-top: 5px;
+}
 .nameinput{
     margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
 }
 .emailtext{
     margin-bottom: 10px;
 }
+.emailinput span{
+    margin-top: 5px;
+}
 .emailinput{
     margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
 }
 .mobiletext{
     margin-bottom: 10px;
 }
+.mobileinput span{
+    margin-top: 5px;
+}
 .mobileinput{
     margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.passwordinput span{
+    margin-top: 5px;
 }
 .passwordtext{
     margin-bottom: 10px;
 }
 .passwordinput{
     margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
 }
 .termscond{
     margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
 }
 .createaccount{
     margin-bottom: 10px;
