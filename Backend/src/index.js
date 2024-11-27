@@ -1,5 +1,5 @@
-app = require('./server')
-userRoute = require('./Routes/user.routes')
+import app from "./server.js";
+import userRoute from "./Routes/user.routes.js";
 
 app.use('/api/v1/user',userRoute);
 
