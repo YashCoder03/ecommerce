@@ -1,4 +1,4 @@
-const userModel = require("../model/user.model")
+import userModel from "../model/user.model.js";
 const createUser = async(req,res) => {
 
     const {name,email,mobile,password} = req.body;
@@ -17,12 +17,12 @@ const createUser = async(req,res) => {
     res.send('creating user');
 
 }
-const loginUser = (req,res) =>{
+const loginUser = async(req,res) =>{
     res.send('login user');
 
 }
-const forgotPassword = (req,res) => {
+const forgotPassword = async(req,res) => {
 
 }
 
-module.exports = { createUser,loginUser,forgotPassword}
+export default   { createUser,loginUser,forgotPassword};

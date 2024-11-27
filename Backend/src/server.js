@@ -1,6 +1,6 @@
-const express = require('express');
-const cors = require('cors'); // Import the cors package
-const db = require('./db/databaseConnection')
+import express, { json, urlencoded } from 'express';
+import cors from 'cors'; // Import the cors package
+import db from './db/databaseConnection.js';
 db()
 
 const app = express()
@@ -11,11 +11,11 @@ const corsOptions = {
     origin: ['http://localhost:5173', 'http://localhost:8080'] // Whitelist the domains you want to allow
 };
 app.use(cors(corsOptions));
-app.use(express.json());
-app.use(express.urlencoded({ extended: true }));
+app.use(json());
+app.use(urlencoded({ extended: true }));
 
 app.listen(port,()=>{
     console.log('Server is Listennig on port',port);
 })
 
-module.exports = app ;
+export default app ;

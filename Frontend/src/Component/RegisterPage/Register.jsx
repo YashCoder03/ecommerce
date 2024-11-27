@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import  { useEffect, useState } from 'react'
 import registerImg from '../../assets/registerimg.png'
 import styles from '../RegisterPage/Register.module.css'
 import axios from 'axios';
@@ -16,6 +16,7 @@ function Register() {
         const responce =  await axios.post('http://localhost:8080/api/v1/user/register',{name,password,email,mobile});
         console.log(responce);
       }catch(error){
+        console.log(error)
       }
     }
     if(buttonClick){
@@ -23,6 +24,7 @@ function Register() {
     }
     setButtonClicked(false);
 
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   },[buttonClick]);
   return (
     <>
@@ -33,7 +35,7 @@ function Register() {
         <div className={styles.form}>
           <div className={styles.formcomponent}>
             <div className={styles.signupwelcometext}>Happy to onBoard</div>
-            <div className={styles.signuptext}>Today is a new day. It's your day. You shape it.</div>
+            <div className={styles.signuptext}>Today is a new day. It&apos;s your day. You shape it.</div>
             <div className={styles.nametext}>Name</div>
             <div className={styles.nameinput}><input onChange={(e) => {setName(e.target.value)}}></input></div>
             <div className={styles.emailtext}>Email</div>
