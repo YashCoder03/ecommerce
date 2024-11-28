@@ -1,7 +1,7 @@
 import  { useEffect, useState } from 'react'
 import '../LoginPage/Login.css'
-import loginimg from '../../assets/loginimg.jpg'
-import google from '../../assets/Google.png'
+import loginimg from '../../assets/Header/Cart.png'
+import google from '../../assets/Header/Cart.png'
 import axios from 'axios';
 import * as Yup from 'yup';
 import {  useFormik } from 'formik';

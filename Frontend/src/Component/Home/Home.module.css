@@ -1,0 +1,27 @@
+.tophome{
+    display: flex;
+    padding-left: 60px;
+    padding-right: 60px;
+    margin-top: 30px;
+}
+.catgories{
+    display: flex;
+    align-items: center;
+    width: 20vw;
+    margin-top: 10px;
+}
+.catgories ul{
+    display: flex;
+    list-style: none;
+    flex-direction: column;
+}
+.catgories ul li {
+    margin-bottom: 28px;
+    font-size: 20px;
+}
+.slideshow {
+    width: 70vw;
+    height: 400px;
+    overflow: hidden;
+}
+
