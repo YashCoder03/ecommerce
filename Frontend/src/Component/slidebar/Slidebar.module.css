@@ -1,0 +1,17 @@
+
+.slideshowcontainer{
+    height: 100%;
+    width: 100%;
+}
+.slideshowimage{
+    height: 100%;
+    width: 100%; 
+}
+
+.slideshowimage img{
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+}
+
+
