@@ -1,6 +1,7 @@
 // import React from 'react'
 import Slidebar from '../slidebar/Slidebar'
 import styles from "../Home/Home.module.css"
+import TodayDeals from "../TodayDeals/TodayDeals.jsx";
 
 function Home() {
   return (
@@ -20,6 +21,9 @@ function Home() {
         </div>
         <div className={styles.slideshow}>
           <Slidebar className={styles.slideshowtile}></Slidebar></div>
+      </div>
+      <div className="todaysDeals">
+        <TodayDeals></TodayDeals>
       </div>
     </>
   )
