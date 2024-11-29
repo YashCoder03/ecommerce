@@ -1,0 +1,66 @@
+.card{
+    height: 100%;
+    width: 100%;
+
+}
+.cardimg{
+    display: inline-block;
+    position: relative;
+    height: 100%
+    ;
+    width: 100%;
+    background-color: #F7F7FC;
+    overflow: hidden;
+}
+.cardimg img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+.imgitem{
+    height: 100%;
+    width: 100%;
+}
+.imgitem span{
+    position: absolute;
+    display: flex;  
+    margin-left: 5%;
+    margin-top: 5%;
+    font-size: 80%;
+    background-color: brown;
+    border-radius: 15%;
+    padding: 2%;
+    color: white;
+    top: 0;
+    left: 0;
+}
+.cardbutton{
+    position: absolute;
+    display: inline-block;
+    right: 0;
+    top: 0;
+    height: 12%;
+    width: 12%;
+    margin-right: 5%;
+    margin-top: 5%;
+}
+.cardbutton button{
+    background-color: transparent;
+    border: none;
+    border-radius: 100%;
+    padding: 5%;
+    background-color: white;
+}
+.cardbutton button img{
+   height: 100%;
+   width: 100%;
+   object-fit: contain ;
+}
+.wishlist{
+    margin-bottom: 30%;
+    
+}
+.productname{
+    display: flex;
+    margin-top: 2%;
+}

@@ -1,0 +1,10 @@
+.todaydeals{
+    margin-top: 200px;
+    display: flex;
+}
+.slideshow{
+    display: flex;
+    height: 250px;
+    width: 250px;
+    margin-left: 40px;
+}
