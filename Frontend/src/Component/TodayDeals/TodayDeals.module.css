@@ -1,10 +1,59 @@
 .todaydeals{
     margin-top: 200px;
+    margin-left: 60px;
+    margin-right: 60px;
     display: flex;
+    flex-direction: column;
 }
 .slideshow{
     display: flex;
     height: 250px;
     width: 250px;
     margin-left: 40px;
+}
+.todaytitle{
+    font-size: 26px;
+    color: #DB4444;
+    font-weight: bold;
+}
+.titleblank{
+    color: #DB4444; 
+    background-color:#DB4444 ;
+    padding: 2px;
+    font-size: 26px;
+    margin-right: 10px;
+    border-radius: 2px;
+
+}
+.flashsale{
+    margin-top: 40px;
+    display: flex;
+    font-weight: bold;
+    align-items: flex-end;
+}
+.flashsaletitle{
+    display: flex;  
+    font-size: 46px;
+}
+.countdown{
+    margin-left: 10%;
+    display: flex;
+    flex-direction: column;
+}
+.daystext{
+    display: inline-block;
+    font-size: 18px;
+}
+.daystext span{
+    justify-content: space-between;
+    margin-right: 32px;
+}
+.daysnumber{
+    font-size: 46px;
+}
+.colon{
+    color: #DB4444;
+}
+.productslideshow{
+    margin-top: 40px;
 }
