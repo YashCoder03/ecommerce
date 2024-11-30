@@ -1,0 +1,22 @@
+.footer,h4{
+    background-color: black;
+    color: white;
+}
+.container{
+    padding-top: 40px;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+.row{
+    display: flex;
+    justify-content: space-evenly;
+}
+.row h4{
+    margin-bottom: 20px;
+
+}
+
+.row li{
+    margin-bottom: 20px;
+    list-style: none;
+}

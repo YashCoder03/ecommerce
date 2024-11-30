@@ -1,5 +1,5 @@
 import productimg from "../../assets/productmg/2.png"
-import styles from "../ProductCard/ProductCard.module.css";
+import styles from "./ProductCard.module.css";
 import wishlist from "../../assets/Cardimg/Wishlist.png"
 import quickview from "../../assets/Cardimg/QuickView.png"
 function ProductCard() {

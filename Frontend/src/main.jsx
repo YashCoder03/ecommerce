@@ -5,7 +5,8 @@ import Layout from './layout.jsx';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import Login from './Component/LoginPage/login.jsx';
 import Register from './Component/RegisterPage/register.jsx';
-import Home from './Component/Home/Home.jsx';
+import Home from './Component/HomePage/Home.jsx';
+import Error from './Component/Error/Error.jsx';
 
 // Define routes using createBrowserRouter
 const router = createBrowserRouter([
@@ -24,6 +25,10 @@ const router = createBrowserRouter([
       {
         path: 'register',
         element: <Register />, // Route for Register page
+      },
+      {
+        path: 'error',
+        element: <Error/>, // Route for Register page
       },
     ],
   },

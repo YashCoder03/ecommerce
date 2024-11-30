@@ -1,0 +1,23 @@
+.errorpage{
+    display: flex;
+    justify-content: center;
+    height: 500px;
+
+}
+.errorHead{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:70px
+}
+.homebtn{
+    color: white;
+    background-color: #DB4444;
+    padding: 13px;
+    padding-left: 40px;
+    padding-right:40px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}

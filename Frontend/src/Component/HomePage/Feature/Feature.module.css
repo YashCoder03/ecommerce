@@ -1,0 +1,72 @@
+.feature{
+    margin-left: 60px;
+    margin-top: 50px;
+    margin-right: 60px;
+
+}
+.featuretitle{
+    font-size: 20px;
+    color: #DB4444;
+    font-weight: bold;
+}
+.titleblank{
+    color: #DB4444; 
+    background-color:#DB4444 ;
+    padding: 2px;
+    font-size: 26px;
+    margin-right: 10px;
+    border-radius: 2px;
+
+}
+.bsbigtitle{
+    margin-top: 40px;
+    font-size: 40px;
+    display: flex;
+    font-weight: bold;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.banner{
+    display: flex;
+    margin-top: 60px;
+}
+.leftbanner{
+    display: flex;
+}
+.leftbanner img{
+    display: flex;
+    height: 90%;
+    width: 90%;
+}
+.upbanner img{
+    display: flex;
+    width: 80%;
+}
+
+.rightbanner{
+    display: flex;
+    flex-direction: column;
+    
+}
+.downbanner{
+    display: flex;
+    gap: 30px;
+    margin-top: 30px;
+    
+}
+.speaker{
+    display: flex;
+}
+.speaker img{
+    display: flex;
+    width: 100%;
+    height: 80%;
+}
+.perfume{
+    display: flex;
+}
+.perfume img{
+    display: flex;
+    width: 100%;
+    height: 80%;
+}
