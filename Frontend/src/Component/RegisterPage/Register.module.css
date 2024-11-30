@@ -5,6 +5,7 @@
     height: 95vh;
     width: 48vw;
     margin: 20px;
+    border-radius: 12px;
 
 }
 .form{
@@ -121,6 +122,7 @@ input{
 .alreadyhaveaccount span{
     color: blue;
 }
+
 
 
 

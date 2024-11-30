@@ -1,6 +1,6 @@
 // import React from 'react'
 import styles from "../TodayDeals/TodayDeals.module.css"
-import ProductSlideShow from "../ProductSlideShow/ProductSlideShow"
+import ProductSlideShow from "../../ProductSlideShow/ProductSlideShow"
 function TodayDeals() {
   return (
     <>
@@ -14,8 +14,8 @@ function TodayDeals() {
                 </div>
             </div>
             <div className={styles.productslideshow}><ProductSlideShow></ProductSlideShow></div>
-            {/* <button className={styles.viewbutton}>View All Products</button> */}
-
+            <div className={styles.viewbutton}><button className={styles.viewbutton}>View All Products</button>
+            </div>
 
         </div>
 

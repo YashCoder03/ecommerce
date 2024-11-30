@@ -1,0 +1,42 @@
+.buttonarea{
+    display: flex;
+    border : 1px solid #cdcdcd;
+    border-radius: 4px;
+    height: 100%;
+    width: 100%;
+    padding: 20px;
+    transition: all 0.5s ease;
+}
+.btnitem{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    aspect-ratio: 1/1;
+    font-size: 130%;
+}
+.btnitem img{
+    height: 100%;
+    width: 100%;
+    padding: 20%;
+    display: flex;
+    transition: filter 0.5s ease;
+
+
+}
+.buttonarea:hover img{
+    filter: invert(1);
+}
+.buttonarea:hover{
+    color: white;
+    background-color: #DB4444;
+}
+
+
+
+
+
+
+

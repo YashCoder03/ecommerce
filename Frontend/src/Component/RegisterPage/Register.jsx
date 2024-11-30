@@ -1,5 +1,5 @@
 import  { useEffect, useState } from 'react'
-import registerImg from '../../assets/Header/Cart.png'
+import registerImg from '../../assets/Login/login.png'
 import styles from '../RegisterPage/Register.module.css'
 import axios from 'axios';
 import * as Yup from 'yup';

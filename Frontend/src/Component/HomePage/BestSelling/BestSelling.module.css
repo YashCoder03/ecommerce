@@ -1,0 +1,35 @@
+.bestselling{
+    margin: 50px 60px 10px 60px;
+}
+.title{
+    font-size: 20px;
+    color: #DB4444;
+    font-weight: bold;
+}
+.titleblank{
+    color: #DB4444; 
+    background-color:#DB4444 ;
+    padding: 2px;
+    font-size: 26px;
+    margin-right: 10px;
+    border-radius: 2px;
+
+}
+.bsbigtitle{
+    margin-top: 40px;
+    font-size: 40px;
+    display: flex;
+    font-weight: bold;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.viewall{
+    background-color: #DB4444;
+    color: white;
+    border: none;
+    padding: 10px 20px 10px 20px;
+    border-radius: 5px;
+}
+.productslideshow{
+    margin-top: 40px;
+}

@@ -1,8 +1,12 @@
 // import React from 'react'
-import Slidebar from '../slidebar/Slidebar'
-import styles from "../Home/Home.module.css"
-import TodayDeals from "../TodayDeals/TodayDeals.jsx";
-
+import Slidebar from '../slidebar/Slidebar.jsx';
+import styles from "../HomePage/Home.module.css"
+import TodayDeals from "./TodayDeals/TodayDeals.jsx";
+import HomeCatergories from './HomeCategories/HomeCatergories.jsx';
+import BestSelling from './BestSelling/BestSelling.jsx';4
+import banner from "../../assets/Banner/Speaker.png"
+import Product from './Products/Product.jsx';
+import Feature from './Feature/Feature.jsx';
 function Home() {
   return (
     <>
@@ -25,6 +29,11 @@ function Home() {
       <div className="todaysDeals">
         <TodayDeals></TodayDeals>
       </div>
+      <div className={styles.categories}><HomeCatergories/></div>
+      <div className={styles.bestSelling}><BestSelling></BestSelling></div>
+      <div className={styles.banner}><img src={banner}></img></div>
+      <div className={styles.Product}><Product></Product></div>
+      <div className={styles.featured}><Feature></Feature></div>
     </>
   )
 }

@@ -1,0 +1,32 @@
+.categories{
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-top: 60px;
+}
+.title{
+    font-size: large;   
+}
+.title span{
+    background-color: #DB4444;
+    font-size: x-large;
+    color: #DB4444;
+    font-weight: bold;
+    padding: 2px;
+    border-radius: 3px;
+    margin-right: 5px;
+}
+.bigtitle{
+    margin-top: 20px;
+    display: flex;  
+    font-size: 46px;
+    font-weight: bold;
+}
+.catbanner{
+    display: flex;
+    margin-top: 40px;
+    height: 200px;
+    width: 200px;
+    gap:35px
+    
+}
+
