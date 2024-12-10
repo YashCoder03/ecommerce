@@ -1,0 +1,12 @@
+.contactpage{
+  height: 85vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.left{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.call span{
+    margin-bottom: 10px;
+}
