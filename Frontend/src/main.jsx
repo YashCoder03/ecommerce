@@ -8,6 +8,7 @@ import Register from './Component/RegisterPage/register.jsx';
 import Home from './Component/HomePage/Home.jsx';
 import Error from './Component/Error/Error.jsx';
 import Contact from './Component/Contact/Contact.jsx';
+import ProductDetails from './Component/ProductDetails/ProductDetails.jsx';
 
 // Define routes using createBrowserRouter
 const router = createBrowserRouter([
@@ -35,6 +36,10 @@ const router = createBrowserRouter([
         path: 'contact',
         element: <Contact/>, // Route for Register page
       },
+      {
+        path:'productdetails',
+        element: <ProductDetails/>
+      }
     ],
   },
 ]);

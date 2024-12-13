@@ -7,26 +7,24 @@ function Contact() {
         <div className={styles.left}>
             <div className={styles.call}>
                 <span>Call to Us</span>
-                We are available 24/7, 7 days a week.
-                <br/>
-                Phone: +919876543210
+                <span>We are available 24/7, 7 days a week.</span>
+                <span>Phone: +919876543210</span>
             </div>
             <div className={styles.email}>
-            Fill out our form and we will contact you within 24 hours.
-            <br />
-            Emails: customer@exclusive.com
-            <br />
-            Emails: support@exclusive.com
+                <span>Write to US</span>
+                <span>Fill out our form and we will contact you within 24 hours.</span>
+                <span>Emails: customer@exclusive.com</span>
+                <span>Emails: support@exclusive.com</span>
             </div>
         </div>
         <div className={styles.right}>
             <div className={styles.customerdetails}>
-                <input type="text" className={styles.name} />
-                <input type="text" className={styles.email} />
-                <input type="text" className={styles.phone} />
+                <input type="text" className={styles.name} placeholder="Your Name"/>
+                <input type="text" className={styles.email} placeholder="Your Email"/>
+                <input type="text" className={styles.phone} placeholder="Your Phone"/>
             </div>
             <div className={styles.message}>
-                <input type="text" className={styles.messageinput} />
+                <textarea type="text" className={styles.messageinput} placeholder="Your Message"/>
             </div>
             <div className={styles.button}>
                 <button className={styles.subbtn}>Send Message</button>
